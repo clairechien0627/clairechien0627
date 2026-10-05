@@ -11,8 +11,8 @@ I build LLM systems that are more **useful** and more **efficient**.
 
 ## ⭐ Featured
 
-**[NCU Course Advisor](https://github.com/clairechien0627/NCU_AI_Guidance)**<br>
-AI guidance platform for course planning and major exploration, built on knowledge graphs, multi-signal retrieval, and modular multi-agent RAG.
+**[NCU AI Discovery System](https://github.com/clairechien0627/NCU_AI_Guidance)**<br>
+Major-exploration platform for high-school and NCU students: a tool-using agent answers course questions over a knowledge graph and vector search, and real research proposals become interest questionnaires.
 
 **[Green AI Compression Orchestrator](https://github.com/clairechien0627/Green_AI_Compression_Orchestrator)**<br>
 LLM agent that searches for Pareto-optimal LLM compression settings across accuracy, latency, VRAM, and carbon emissions, benchmarked against TPE and NSGA-II.

@@ -11,8 +11,8 @@
 
 ## ⭐ 代表專案
 
-**[NCU Course Advisor 中央大學選課助理](https://github.com/clairechien0627/NCU_AI_Guidance)**<br>
-結合知識圖譜、多信號檢索與模組化多代理人 RAG 的 AI 平台，協助選課規劃與科系探索。
+**[NCU AI Discovery System 中央大學 AI 科系探索平台](https://github.com/clairechien0627/NCU_AI_Guidance)**<br>
+服務高中生與大學生的科系探索平台：會呼叫工具的 agent 結合知識圖譜與向量檢索回答選課問題，並把真實研究計畫轉成高中生的興趣量表。
 
 **[Green AI Compression Orchestrator](https://github.com/clairechien0627/Green_AI_Compression_Orchestrator)**<br>
 以 LLM Agent 自動搜尋 LLM 壓縮設定的 Pareto 最優解，同時權衡準確率、延遲、VRAM 與碳排放，並與 TPE、NSGA-II 比較。
