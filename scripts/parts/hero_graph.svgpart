@@ -1,0 +1,48 @@
+<g transform="translate(-204 -40) scale(1.2)">
+        <!-- background graph -->
+        <g class="edge" opacity=".9">
+          <path d="M530 200 L600 140 L715 190 L660 72 L815 105"/>
+          <path d="M600 140 L560 88 L660 72 M660 72 L760 50 L815 105 M715 190 L790 205 L850 160 L815 105 M530 200 L650 218 L715 190"/>
+        </g>
+        <g fill="var(--edge)">
+          <circle cx="560" cy="88" r="3.5"/><circle cx="760" cy="50" r="3.5"/><circle cx="790" cy="205" r="3.5"/><circle cx="850" cy="160" r="3.5"/><circle cx="650" cy="218" r="3.5"/>
+        </g>
+
+        <!-- retrieval trail -->
+        <path d="M530 200 L600 140 L715 190 L660 72 L815 105" fill="none" stroke="var(--amber)" stroke-width="2" stroke-linecap="round" stroke-dasharray="507" stroke-dashoffset="0" opacity=".85">
+          <animate attributeName="stroke-dashoffset" values="507;0;0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".85;.85;0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- query origin -->
+        <circle cx="530" cy="200" r="5" class="am"/>
+        <text x="530" y="225" text-anchor="middle" class="t-mono mu" font-size="11">query</text>
+
+        <!-- labeled nodes with arrival rings -->
+        <g>
+          <circle class="ring" cx="600" cy="140" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.091;0.1;0.206;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.091;0.1;0.206;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="600" cy="140" r="7"/><circle cx="600" cy="140" r="2.6" class="te"/>
+          <text x="586" y="128" text-anchor="end" class="t-mono fg" font-size="12">RAG</text>
+        </g>
+        <g>
+          <circle class="ring" cx="715" cy="190" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.215;0.225;0.331;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.215;0.225;0.331;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="715" cy="190" r="7"/><circle cx="715" cy="190" r="2.6" class="te"/>
+          <text x="730" y="183" class="t-mono fg" font-size="12">knowledge graph</text>
+        </g>
+        <g>
+          <circle class="ring" cx="660" cy="72" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.344;0.353;0.456;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.344;0.353;0.456;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="660" cy="72" r="7"/><circle cx="660" cy="72" r="2.6" class="te"/>
+          <text x="660" y="52" text-anchor="middle" class="t-mono fg" font-size="12">llm agents</text>
+        </g>
+        <g>
+          <circle class="ring" cx="815" cy="105" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.5;0.509;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18" keyTimes="0;0.5;0.509;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="815" cy="105" r="7"/><circle cx="815" cy="105" r="2.6" class="te"/>
+          <text x="815" y="134" text-anchor="middle" class="t-mono fg" font-size="12">green ai</text>
+        </g>
+
+        <!-- moving pulse -->
+        <circle r="4.5" class="am" opacity="0">
+          <animateMotion dur="9s" repeatCount="indefinite" path="M530 200 L600 140 L715 190 L660 72 L815 105" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"/>
+          <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.5;0.562" dur="9s" repeatCount="indefinite"/>
+        </circle>
+              </g>

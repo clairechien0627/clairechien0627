@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 190" role="img" aria-label="NCU AI Discovery System: a research proposal becomes three quiz questions, and the answers add up into department scores (example).">
+  <style>
+    .bg{fill:#101918;stroke:#20302d}
+    .fg{fill:#e2eae7} .mu{fill:#8b9c98} .te{fill:#4fc4b6} .am{fill:#f0ae52}
+    .edge{stroke:#2b3d3a;fill:none;stroke-width:1.3} .edgef{fill:#2b3d3a}
+    .node{fill:#101918;stroke:#4fc4b6;stroke-width:1.6}
+    .ring{fill:none;stroke:#f0ae52;stroke-width:1.5}
+    .box{fill:#0d1214;stroke:#4fc4b6;stroke-width:1.4}
+    .pill{fill:#0d1214;stroke:#2b3d3a}
+    .tk{stroke:#4fc4b6} .tf{fill:#4fc4b6} .af{fill:#f0ae52}
+    .title{font:700 19px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .big{font:700 25px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .sub{font:400 13px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .tag{font:400 20px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .t-disp{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif;font-weight:700}
+    .t-body{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .mono,.t-mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}
+    .compact{display:none}
+    @media (max-width: 320px){ .full{display:none} .compact{display:inline} }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="429" height="189" rx="12"/>
+  <g class="full">
+  <text class="title fg" x="24" y="38">NCU AI Discovery System</text>
+  <text class="sub mu" x="24" y="60">Turns real research proposals into an interest quiz</text>
+  <path class="box" d="M28 84 L54.0 84 L64.0 94.0 L64.0 140.0 L28 140.0 Z"/><path class="box" style="fill:none" d="M54.0 84 L54.0 94.0 L64.0 94.0"/><rect class="edgef" x="34.0" y="102.0" width="22.0" height="3.0" rx="1.5"/><rect class="edgef" x="34.0" y="111.0" width="18.0" height="3.0" rx="1.5"/><rect class="edgef" x="34.0" y="120.0" width="22.0" height="3.0" rx="1.5"/><rect class="edgef" x="34.0" y="129.0" width="14.0" height="3.0" rx="1.5"/>
+  <text class="mono mu" x="46" y="162" font-size="11" text-anchor="middle">proposal</text>
+  <path class="edge" d="M72 112 L88 112"/><path class="edge" d="M84 108 L88 112 L84 116"/>
+  <rect class="pill" x="96" y="84" width="134" height="19" rx="9.5"/>
+  <text class="mono fg" x="108" y="97.5" font-size="11">Q1 · scenario</text>
+  <path class="tk" d="M208 93.5 l4.0 4.0 l7.0 -8.0" fill="none" stroke-width="2.0" stroke-linecap="round"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06;0.08;.95;1" dur="9s" repeatCount="indefinite"/></path>
+  <rect class="pill" x="96" y="108" width="134" height="19" rx="9.5"/>
+  <text class="mono fg" x="108" y="121.5" font-size="11">Q2 · method</text>
+  <path class="tk" d="M208 117.5 l4.0 4.0 l7.0 -8.0" fill="none" stroke-width="2.0" stroke-linecap="round"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.15;.95;1" dur="9s" repeatCount="indefinite"/></path>
+  <rect class="pill" x="96" y="132" width="134" height="19" rx="9.5"/>
+  <text class="mono fg" x="108" y="145.5" font-size="11">Q3 · mindset</text>
+  <path class="tk" d="M208 141.5 l4.0 4.0 l7.0 -8.0" fill="none" stroke-width="2.0" stroke-linecap="round"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.20;0.22;.95;1" dur="9s" repeatCount="indefinite"/></path>
+  <path class="edge" d="M238 112 L252 112"/><path class="edge" d="M248 108 L252 112 L248 116"/>
+  <text class="mono mu" x="258" y="96" font-size="11">Mech. Eng.</text>
+  <rect class="pill" style="fill:none" x="336" y="86" width="70" height="11" rx="3"/>
+  <rect class="af" x="336" y="86" width="64" height="11" rx="3" opacity="0.9"><animate attributeName="width" values="0;0;64;64;0" keyTimes="0;.24;.42;.95;1" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="mono mu" x="258" y="120" font-size="11">Earth Sci.</text>
+  <rect class="pill" style="fill:none" x="336" y="110" width="70" height="11" rx="3"/>
+  <rect class="tf" x="336" y="110" width="30" height="11" rx="3" opacity="0.55"><animate attributeName="width" values="0;0;30;30;0" keyTimes="0;.24;.42;.95;1" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="mono mu" x="258" y="144" font-size="11">Optics</text>
+  <rect class="pill" style="fill:none" x="336" y="134" width="70" height="11" rx="3"/>
+  <rect class="tf" x="336" y="134" width="46" height="11" rx="3" opacity="0.55"><animate attributeName="width" values="0;0;46;46;0" keyTimes="0;.24;.42;.95;1" dur="9s" repeatCount="indefinite"/></rect>
+  </g>
+  <g class="compact">
+  <text class="big fg" x="28" y="56">NCU AI Discovery</text>
+  <text class="big fg" x="28" y="88">System</text>
+  <text class="tag mu" x="28" y="146">Research papers</text>
+  <text class="tag mu" x="28" y="172">→ an interest quiz</text>
+  <path class="box" d="M318 104 L345.3 104 L355.8 114.5 L355.8 162.8 L318 162.8 Z"/><path class="box" style="fill:none" d="M345.3 104 L345.3 114.5 L355.8 114.5"/><rect class="edgef" x="324.3" y="122.9" width="23.1" height="3.2" rx="1.6"/><rect class="edgef" x="324.3" y="132.3" width="18.9" height="3.2" rx="1.6"/><rect class="edgef" x="324.3" y="141.8" width="23.1" height="3.2" rx="1.6"/><rect class="edgef" x="324.3" y="151.2" width="14.7" height="3.2" rx="1.6"/>
+  <circle class="tf" cx="366" cy="158" r="15"/>
+  <path d="M358 158 l5 5 l10 -11" fill="none" stroke="#0d1214" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

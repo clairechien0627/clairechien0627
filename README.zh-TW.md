@@ -1,63 +1,58 @@
-[English](README.md) | **繁體中文**
+<p align="right"><a href="https://github.com/clairechien0627">English</a> · <b>繁體中文</b></p>
 
-# 嗨，我是簡筠方 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="簡筠方（Yun-Fang Chien），國立中央大學資訊工程學系。研究興趣：LLM Agent、檢索、高效能 AI。" src="./assets/hero-dark.svg" width="100%">
+</picture>
 
-**國立中央大學資訊工程學系（NCU CSIE）** 大學部學生。<br>
-我專注於打造更**實用**、更**有效率**的大型語言模型系統。
+### 代表專案
 
-🔬 **研究興趣：** LLM Agent · 檢索增強生成（RAG）· 知識圖譜 · 高效能 / 綠色 AI
+<p>
+<a href="https://github.com/clairechien0627/NCU_AI_Guidance"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ncu-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-ncu-light.svg"><img alt="NCU AI Discovery System 中央大學 AI 科系探索平台：把研究計畫轉成三題興趣量表，作答後依科系累加分數（示意）。" src="./assets/card-ncu-dark.svg" width="49%"></picture></a>
+<a href="https://github.com/clairechien0627/Green_AI_Compression_Orchestrator"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-green-dark.svg"><source media="(prefers-color-scheme: light)" srcset="./assets/card-green-light.svg"><img alt="Green AI Compression Orchestrator（示意圖）：準確率幾乎不變，延遲、記憶體與碳排放大幅降低。" src="./assets/card-green-dark.svg" width="49%"></picture></a>
+</p>
 
----
+### 其他專案
 
-## ⭐ 代表專案
+<img src="./assets/icon-ai.svg" width="18" height="18" alt=""> **AI 應用**
 
-**[NCU AI Discovery System 中央大學 AI 科系探索平台](https://github.com/clairechien0627/NCU_AI_Guidance)**<br>
-服務高中生與大學生的科系探索平台：會呼叫工具的 agent 結合知識圖譜與向量檢索回答選課問題，並把真實研究計畫轉成高中生的興趣量表。
+- [AI Bartender](https://github.com/clairechien0627/Cocktail_AI)：以 LangGraph agent 探索與推薦調酒
+- [SnackLens](https://github.com/clairechien0627/SnackLens)：從零食包裝照片讀取營養標示
+- [Recipe Chatbot](https://github.com/clairechien0627/GenAI_recipe_chatbot)：附評分理由的 RAG 食譜搜尋
 
-**[Green AI Compression Orchestrator](https://github.com/clairechien0627/Green_AI_Compression_Orchestrator)**<br>
-以 LLM Agent 自動搜尋 LLM 壓縮設定的 Pareto 最優解，同時權衡準確率、延遲、VRAM 與碳排放，並與 TPE、NSGA-II 比較。
+<img src="./assets/icon-systems.svg" width="18" height="18" alt=""> **系統與網路**
 
----
-
-## 🗂️ 其他專案
-
-**🤖 AI 應用**
-- [AI 調酒大師](https://github.com/clairechien0627/Cocktail_AI)：結合 LangGraph Agent 與語意搜尋的調酒探索平台
-- [SnackLens](https://github.com/clairechien0627/SnackLens)：拍攝零食包裝，解析營養標示與成分
-- [食譜聊天機器人](https://github.com/clairechien0627/GenAI_recipe_chatbot)：附評分理由的 RAG 食譜搜尋
-
-**⚙️ 系統與網路**
-- [gem5 + NVMain](https://github.com/clairechien0627/NVmain_Gem5)：為非揮發性記憶體設計的自訂快取替換策略
-- [Socket Programming](https://github.com/clairechien0627/Socket_Programming)：支援 TCP/UDP 混合與 P2P 檔案分享的加密聊天系統
+- [gem5 + NVMain](https://github.com/clairechien0627/NVmain_Gem5)：為非揮發性記憶體設計的快取替換策略
+- [Socket Programming](https://github.com/clairechien0627/Socket_Programming)：支援 TCP/UDP 與 P2P 分享的加密聊天
 - [Escape Docker](https://github.com/clairechien0627/EscapeDocker)：學習 Linux 與 Docker 的密室逃脫遊戲
-- [組合語言遊戲合集](https://github.com/clairechien0627/AssemblyFinal)：以 MASM32 x86 組合語言撰寫的 Win32 小遊戲
+- [Assembly Games](https://github.com/clairechien0627/AssemblyFinal)：以 x86 組合語言撰寫的 Win32 小遊戲
 
-**🎨 應用與視覺化**
-- [Cake Game](https://github.com/clairechien0627/CakeGame)：Android 益智遊戲
-- [全球富豪財富視覺化](https://github.com/clairechien0627/data_visualization_on_rich)：互動式全球富豪財富網頁
-- [資料視覺化作業](https://github.com/clairechien0627/DataViz-Midterm)：以 Plotly.js 呈現臺灣統計資料
+<img src="./assets/icon-apps.svg" width="18" height="18" alt=""> **應用與視覺化**
+
+- [Cake Game](https://github.com/clairechien0627/CakeGame)：合併蛋糕片的 Android 益智遊戲
+- [Wealth Visualization](https://github.com/clairechien0627/data_visualization_on_rich)：互動式全球富豪財富網頁
+- [DataViz Homework](https://github.com/clairechien0627/DataViz-Midterm)：以 Plotly.js 呈現臺灣教育與健康統計
 
 <details>
-<summary>📚 <b>修課歷程</b></summary>
+<summary><b>修課歷程</b></summary>
 
 | 學期 | 課程 | 專案 |
 |---|---|---|
-| 2026 春（大三下） | 生成式AI的人文導論 | SnackLens |
-| 2026 春（大三下） | Linux與邊緣運算 | Escape Docker |
-| 2025 秋（大三上） | 計算機網路 | AI 調酒大師、Socket Programming |
+| 2026 春（大三下） | 生成式AI的人文導論 | [SnackLens](https://github.com/clairechien0627/SnackLens) |
+| 2026 春（大三下） | Linux與邊緣運算 | [Escape Docker](https://github.com/clairechien0627/EscapeDocker) |
+| 2025 秋（大三上） | 計算機網路 | [AI Bartender](https://github.com/clairechien0627/Cocktail_AI)、[Socket Programming](https://github.com/clairechien0627/Socket_Programming) |
 | 2025 秋（大三上） | 機器學習概論 | [課堂作業](https://github.com/clairechien0627?tab=repositories&q=1141-ML) |
-| 2025 春（大二下） | 計算機組織 | gem5 + NVMain |
-| 2025 春（大二下） | 程式設計-Python、生成式AI：文字與圖像生成的原理與實務 | 食譜聊天機器人 |
-| 2024 秋（大二上） | 組合語言與系統程式 | 組合語言遊戲合集 |
-| 2024 春（大一下） | 計算機實習 Ⅱ | Cake Game |
-| 2023 秋（大一上） | 資料視覺化 | 全球富豪財富視覺化、資料視覺化作業 |
+| 2025 春（大二下） | 計算機組織 | [gem5 + NVMain](https://github.com/clairechien0627/NVmain_Gem5) |
+| 2025 春（大二下） | 程式設計-Python、生成式AI：文字與圖像生成的原理與實務 | [Recipe Chatbot](https://github.com/clairechien0627/GenAI_recipe_chatbot) |
+| 2024 秋（大二上） | 組合語言與系統程式 | [Assembly Games](https://github.com/clairechien0627/AssemblyFinal) |
+| 2024 春（大一下） | 計算機實習 Ⅱ | [Cake Game](https://github.com/clairechien0627/CakeGame) |
+| 2023 秋（大一上） | 資料視覺化 | [Wealth Visualization](https://github.com/clairechien0627/data_visualization_on_rich)、[DataViz Homework](https://github.com/clairechien0627/DataViz-Midterm) |
 
 </details>
 
----
+### 技能
 
-🛠️ **程式語言：** Python · C/C++ · Java · TypeScript · x86 Assembly<br>
-🧠 **LLM 與 AI：** PyTorch · Transformers · LangChain · LangGraph · RAG · Optuna<br>
-🗜️ **模型壓縮：** GPTQ · AWQ · bitsandbytes · SparseGPT · CodeCarbon<br>
-📊 **資料：** Qdrant · Chroma · MongoDB · pandas · scikit-learn · Plotly<br>
-🌐 **Web 與系統：** React · React Native · FastAPI · Flask · Docker · Linux · gem5
+**程式語言** · Python · C/C++ · Java · TypeScript<br>
+**LLM 與 AI** · PyTorch · Transformers · LangGraph · RAG · GPTQ / AWQ<br>
+**系統與 Web** · React · FastAPI · Docker · Linux · gem5

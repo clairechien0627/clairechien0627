@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" role="img" aria-label="Yun-Fang Chien (簡筠方), CSIE at National Central University. Interests: LLM agents, retrieval, efficient AI.">
+  <style>
+    .bg{fill:#101918;stroke:#20302d}
+    .fg{fill:#e2eae7} .mu{fill:#8b9c98} .te{fill:#4fc4b6} .am{fill:#f0ae52}
+    .edge{stroke:#2b3d3a;fill:none;stroke-width:1.3} .edgef{fill:#2b3d3a}
+    .node{fill:#101918;stroke:#4fc4b6;stroke-width:1.6}
+    .ring{fill:none;stroke:#f0ae52;stroke-width:1.5}
+    .box{fill:#0d1214;stroke:#4fc4b6;stroke-width:1.4}
+    .pill{fill:#0d1214;stroke:#2b3d3a}
+    .tk{stroke:#4fc4b6} .tf{fill:#4fc4b6} .af{fill:#f0ae52}
+    .title{font:700 19px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .big{font:700 25px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .sub{font:400 13px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .tag{font:400 20px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .t-disp{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif;font-weight:700}
+    .t-body{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .mono,.t-mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}
+    .compact{display:none}
+    @media (max-width: 520px){ .full{display:none} .compact{display:inline} .graph text{display:none} .name{font-size:54px} }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="879" height="249" rx="14"/>
+  <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2b3d3a"/></pattern></defs>
+  <rect x="396" y="14" width="470" height="222" rx="10" fill="url(#dots)" opacity=".7"/>
+  <text class="t-mono mu full" x="40" y="74" font-size="13">~/clairechien0627</text>
+  <text class="t-disp fg name" x="40" y="126" font-size="38">Yun-Fang Chien</text>
+  <text class="t-body mu full" x="40" y="160" font-size="15">簡筠方 · CSIE, National Central University</text>
+  <text class="t-mono te full" x="40" y="194" font-size="12.5">llm agents · retrieval · efficient ai</text>
+  <text class="t-body mu compact" x="40" y="178" font-size="26">簡筠方 · NCU CSIE</text>
+  <g class="graph" transform="translate(-204 -40) scale(1.2)">
+        <!-- background graph -->
+        <g class="edge" opacity=".9">
+          <path d="M530 200 L600 140 L715 190 L660 72 L815 105"/>
+          <path d="M600 140 L560 88 L660 72 M660 72 L760 50 L815 105 M715 190 L790 205 L850 160 L815 105 M530 200 L650 218 L715 190"/>
+        </g>
+        <g fill="#2b3d3a">
+          <circle cx="560" cy="88" r="3.5"/><circle cx="760" cy="50" r="3.5"/><circle cx="790" cy="205" r="3.5"/><circle cx="850" cy="160" r="3.5"/><circle cx="650" cy="218" r="3.5"/>
+        </g>
+
+        <!-- retrieval trail -->
+        <path d="M530 200 L600 140 L715 190 L660 72 L815 105" fill="none" stroke="#f0ae52" stroke-width="2" stroke-linecap="round" stroke-dasharray="507" stroke-dashoffset="0" opacity=".85">
+          <animate attributeName="stroke-dashoffset" values="507;0;0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".85;.85;0" keyTimes="0;0.5;1" dur="9s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- query origin -->
+        <circle cx="530" cy="200" r="5" class="am"/>
+        <text x="530" y="225" text-anchor="middle" class="t-mono mu" font-size="11">query</text>
+
+        <!-- labeled nodes with arrival rings -->
+        <g>
+          <circle class="ring" cx="600" cy="140" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.091;0.1;0.206;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.091;0.1;0.206;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="600" cy="140" r="7"/><circle cx="600" cy="140" r="2.6" class="te"/>
+          <text x="586" y="128" text-anchor="end" class="t-mono fg" font-size="12">RAG</text>
+        </g>
+        <g>
+          <circle class="ring" cx="715" cy="190" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.215;0.225;0.331;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.215;0.225;0.331;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="715" cy="190" r="7"/><circle cx="715" cy="190" r="2.6" class="te"/>
+          <text x="730" y="183" class="t-mono fg" font-size="12">knowledge graph</text>
+        </g>
+        <g>
+          <circle class="ring" cx="660" cy="72" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.344;0.353;0.456;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18;18" keyTimes="0;0.344;0.353;0.456;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="660" cy="72" r="7"/><circle cx="660" cy="72" r="2.6" class="te"/>
+          <text x="660" y="52" text-anchor="middle" class="t-mono fg" font-size="12">llm agents</text>
+        </g>
+        <g>
+          <circle class="ring" cx="815" cy="105" r="6" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.5;0.509;1" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;18" keyTimes="0;0.5;0.509;1" dur="9s" repeatCount="indefinite"/></circle>
+          <circle class="node" cx="815" cy="105" r="7"/><circle cx="815" cy="105" r="2.6" class="te"/>
+          <text x="815" y="134" text-anchor="middle" class="t-mono fg" font-size="12">green ai</text>
+        </g>
+
+        <!-- moving pulse -->
+        <circle r="4.5" class="am" opacity="0">
+          <animateMotion dur="9s" repeatCount="indefinite" path="M530 200 L600 140 L715 190 L660 72 L815 105" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"/>
+          <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.5;0.562" dur="9s" repeatCount="indefinite"/>
+        </circle>
+              </g>
+</svg>

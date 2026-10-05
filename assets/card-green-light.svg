@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 190" role="img" aria-label="Green AI Compression Orchestrator, illustrative: accuracy stays close to the original while latency, memory and carbon shrink.">
+  <style>
+    .bg{fill:#f6faf9;stroke:#d6e2df}
+    .fg{fill:#18211f} .mu{fill:#5a6a66} .te{fill:#0e786d} .am{fill:#b5690f}
+    .edge{stroke:#bfd0cb;fill:none;stroke-width:1.3} .edgef{fill:#bfd0cb}
+    .node{fill:#f6faf9;stroke:#0e786d;stroke-width:1.6}
+    .ring{fill:none;stroke:#b5690f;stroke-width:1.5}
+    .box{fill:#ffffff;stroke:#0e786d;stroke-width:1.4}
+    .pill{fill:#ffffff;stroke:#bfd0cb}
+    .tk{stroke:#0e786d} .tf{fill:#0e786d} .af{fill:#b5690f}
+    .title{font:700 19px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .big{font:700 25px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .sub{font:400 13px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .tag{font:400 20px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .t-disp{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif;font-weight:700}
+    .t-body{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
+    .mono,.t-mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace}
+    .compact{display:none}
+    @media (max-width: 320px){ .full{display:none} .compact{display:inline} }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="429" height="189" rx="12"/>
+  <g class="full">
+  <text class="title fg" x="24" y="38">Green AI Compression Orchestrator</text>
+  <text class="sub mu" x="24" y="60">An LLM agent searches for a better compression setting</text>
+  <text class="mono fg" x="24" y="88.5" font-size="12">accuracy</text>
+  <rect class="pill" style="fill:none" x="110" y="78" width="290" height="12" rx="3"/>
+  <rect class="tf" x="110" y="78" width="272.6" height="12" rx="3" opacity="0.55"><animate attributeName="width" values="290;290;272.6;272.6;290" keyTimes="0;.06;.26;.96;1" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="mono mu" x="24" y="109.5" font-size="12">latency</text>
+  <rect class="pill" style="fill:none" x="110" y="99" width="290" height="12" rx="3"/>
+  <rect class="af" x="110" y="99" width="98.6" height="12" rx="3" opacity="0.85"><animate attributeName="width" values="290;290;98.6;98.6;290" keyTimes="0;.06;.26;.96;1" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="mono mu" x="24" y="130.5" font-size="12">memory</text>
+  <rect class="pill" style="fill:none" x="110" y="120" width="290" height="12" rx="3"/>
+  <rect class="af" x="110" y="120" width="110.2" height="12" rx="3" opacity="0.85"><animate attributeName="width" values="290;290;110.2;110.2;290" keyTimes="0;.06;.26;.96;1" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="mono mu" x="24" y="151.5" font-size="12">carbon</text>
+  <rect class="pill" style="fill:none" x="110" y="141" width="290" height="12" rx="3"/>
+  <rect class="af" x="110" y="141" width="58.0" height="12" rx="3" opacity="0.85"><animate attributeName="width" values="290;290;58.0;58.0;290" keyTimes="0;.06;.26;.96;1" dur="9s" repeatCount="indefinite"/></rect>
+  <rect class="pill" style="fill:none" x="24" y="167" width="14" height="9" rx="2"/>
+  <text class="mono mu" x="44" y="175" font-size="11">original</text>
+  <rect class="af" x="120" y="167" width="14" height="9" rx="2" opacity=".85"/>
+  <text class="mono mu" x="140" y="175" font-size="11">agent's pick</text>
+  </g>
+  <g class="compact">
+  <text class="big fg" x="28" y="56">Green AI Compression</text>
+  <text class="big fg" x="28" y="88">Orchestrator</text>
+  <text class="tag mu" x="28" y="146">Smaller, faster,</text>
+  <text class="tag mu" x="28" y="172">greener LLMs</text>
+  <rect class="tf" x="318" y="112" width="79.0" height="10" rx="3" opacity="0.55"/>
+  <rect class="af" x="318" y="127" width="28.6" height="10" rx="3" opacity="0.85"/>
+  <rect class="af" x="318" y="142" width="31.9" height="10" rx="3" opacity="0.85"/>
+  <rect class="af" x="318" y="157" width="16.8" height="10" rx="3" opacity="0.85"/>
+  </g>
+</svg>
