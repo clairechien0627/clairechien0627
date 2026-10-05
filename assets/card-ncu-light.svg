@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 190" role="img" aria-label="NCU AI Discovery System: a research proposal becomes three quiz questions, and the answers add up into department scores (example).">
   <style>
-    .bg{fill:#f6faf9;stroke:#d6e2df}
-    .fg{fill:#18211f} .mu{fill:#5a6a66} .te{fill:#0e786d} .am{fill:#b5690f}
-    .edge{stroke:#bfd0cb;fill:none;stroke-width:1.3} .edgef{fill:#bfd0cb}
-    .node{fill:#f6faf9;stroke:#0e786d;stroke-width:1.6}
+    .bg{fill:#f6f8fa;stroke:#d0d7de}
+    .fg{fill:#1f2328} .mu{fill:#59636e} .te{fill:#0e786d} .am{fill:#b5690f}
+    .edge{stroke:#d0d7de;fill:none;stroke-width:1.3} .edgef{fill:#d0d7de}
+    .node{fill:#f6f8fa;stroke:#0e786d;stroke-width:1.6}
     .ring{fill:none;stroke:#b5690f;stroke-width:1.5}
     .box{fill:#ffffff;stroke:#0e786d;stroke-width:1.4}
-    .pill{fill:#ffffff;stroke:#bfd0cb}
+    .pill{fill:#ffffff;stroke:#d0d7de}
     .tk{stroke:#0e786d} .tf{fill:#0e786d} .af{fill:#b5690f}
     .title{font:700 19px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
     .big{font:700 25px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}

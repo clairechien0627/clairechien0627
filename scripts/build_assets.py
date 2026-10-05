@@ -25,10 +25,12 @@ SANS = "'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft Jhe
 MONO = "ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace"
 
 THEMES = {
-    "light": dict(bg="#f6faf9", line="#d6e2df", fg="#18211f", mu="#5a6a66", te="#0e786d",
-                  am="#b5690f", edge="#bfd0cb", box="#ffffff"),
-    "dark": dict(bg="#101918", line="#20302d", fg="#e2eae7", mu="#8b9c98", te="#4fc4b6",
-                 am="#f0ae52", edge="#2b3d3a", box="#0d1214"),
+    # neutral greys follow GitHub's own palette so the cards sit naturally on the page;
+    # teal and amber are the only accents
+    "light": dict(bg="#f6f8fa", line="#d0d7de", fg="#1f2328", mu="#59636e", te="#0e786d",
+                  am="#b5690f", edge="#d0d7de", box="#ffffff"),
+    "dark": dict(bg="#161b22", line="#30363d", fg="#e6edf3", mu="#8b949e", te="#4fc4b6",
+                 am="#f0ae52", edge="#30363d", box="#0d1117"),
 }
 
 

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" role="img" aria-label="Yun-Fang Chien (簡筠方), CSIE at National Central University. Interests: LLM agents, retrieval, efficient AI.">
   <style>
-    .bg{fill:#101918;stroke:#20302d}
-    .fg{fill:#e2eae7} .mu{fill:#8b9c98} .te{fill:#4fc4b6} .am{fill:#f0ae52}
-    .edge{stroke:#2b3d3a;fill:none;stroke-width:1.3} .edgef{fill:#2b3d3a}
-    .node{fill:#101918;stroke:#4fc4b6;stroke-width:1.6}
+    .bg{fill:#161b22;stroke:#30363d}
+    .fg{fill:#e6edf3} .mu{fill:#8b949e} .te{fill:#4fc4b6} .am{fill:#f0ae52}
+    .edge{stroke:#30363d;fill:none;stroke-width:1.3} .edgef{fill:#30363d}
+    .node{fill:#161b22;stroke:#4fc4b6;stroke-width:1.6}
     .ring{fill:none;stroke:#f0ae52;stroke-width:1.5}
-    .box{fill:#0d1214;stroke:#4fc4b6;stroke-width:1.4}
-    .pill{fill:#0d1214;stroke:#2b3d3a}
+    .box{fill:#0d1117;stroke:#4fc4b6;stroke-width:1.4}
+    .pill{fill:#0d1117;stroke:#30363d}
     .tk{stroke:#4fc4b6} .tf{fill:#4fc4b6} .af{fill:#f0ae52}
     .title{font:700 19px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
     .big{font:700 25px 'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif}
@@ -19,7 +19,7 @@
     @media (max-width: 520px){ .full{display:none} .compact{display:inline} .graph text{display:none} .name{font-size:54px} }
   </style>
   <rect class="bg" x=".5" y=".5" width="879" height="249" rx="14"/>
-  <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2b3d3a"/></pattern></defs>
+  <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#30363d"/></pattern></defs>
   <rect x="396" y="14" width="470" height="222" rx="10" fill="url(#dots)" opacity=".7"/>
   <text class="t-mono mu full" x="40" y="74" font-size="13">~/clairechien0627</text>
   <text class="t-disp fg name" x="40" y="126" font-size="38">Yun-Fang Chien</text>
@@ -32,7 +32,7 @@
           <path d="M530 200 L600 140 L715 190 L660 72 L815 105"/>
           <path d="M600 140 L560 88 L660 72 M660 72 L760 50 L815 105 M715 190 L790 205 L850 160 L815 105 M530 200 L650 218 L715 190"/>
         </g>
-        <g fill="#2b3d3a">
+        <g fill="#30363d">
           <circle cx="560" cy="88" r="3.5"/><circle cx="760" cy="50" r="3.5"/><circle cx="790" cy="205" r="3.5"/><circle cx="850" cy="160" r="3.5"/><circle cx="650" cy="218" r="3.5"/>
         </g>
 
